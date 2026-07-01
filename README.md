@@ -9,6 +9,20 @@
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Objectives](#objectives)
+- [Pipeline Workflow](#pipeline-workflow)
+- [Key Features](#key-features)
+- [Technologies & Resources](#technologies--resources)
+- [Case Study](#case-study)
+- [Preliminary Evaluation](#preliminary-evaluation)
+- [Repository Structure](#repository-structure)
+- [Future Directions](#future-directions)
+- [Contributors](#contributors)
+- [Citation](#citation)
+
 ## Overview
 
 Understanding whether a protein promotes or suppresses disease is fundamental to target identification, biomarker discovery, and therapeutic development.
@@ -64,7 +78,11 @@ Consensus Regulatory Role Inference
 Traceable Results Linked to Literature
 ```
 
-A graphical workflow is available in the **figures/** directory.
+## Pipeline Architecture
+
+<p align="center">
+<img src="figures/pipeline_workflow.png" width="900">
+</p>
 
 ---
 
@@ -117,6 +135,11 @@ The workflow successfully:
 
 The inferred regulatory role was consistent with the well-established tumour suppressor function of **BRCA1**, demonstrating biological plausibility.
 
+## Representative Case Study
+
+<p align="center">
+<img src="figures/brca1_case_study.png" width="750">
+</p>
 ---
 
 # Preliminary Evaluation
@@ -131,7 +154,17 @@ Highlights include:
 - Biological consistency with established literature
 
 Performance figures and representative outputs are available in the **figures/** directory.
+## Classification Performance
 
+<p align="center">
+<img src="figures/classification_performance.png" width="700">
+</p>
+
+## Biological Validation
+
+<p align="center">
+<img src="figures/biological_validation.png" width="700">
+</p>
 ---
 
 # Repository Structure
@@ -194,6 +227,12 @@ March 2026
 - Pathway-level validation
 - Regulatory network reconstruction
 - Large-scale biological knowledge graph development
+
+## Future Roadmap
+
+<p align="center">
+<img src="figures/future_directions.png" width="700">
+</p>
 
 ---
 
