@@ -255,7 +255,7 @@ Manipal Institute of Technology
 
 📧 krithikav.mitmpl2025@learner.manipal.edu
 
-🔗 LinkedIn: *(Add your LinkedIn URL here)*
+🔗 LinkedIn: linkedin.com/in/krithikavenkatraman
 
 ---
 
