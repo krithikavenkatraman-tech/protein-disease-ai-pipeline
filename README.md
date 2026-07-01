@@ -2,89 +2,100 @@
 
 > An interpretable computational framework for identifying protein–disease regulatory relationships through evidence-centric literature mining and natural language processing.
 
+![Status](https://img.shields.io/badge/Status-Ongoing%20Research-blue)
+![Conference](https://img.shields.io/badge/Presented-SYMBIOT'26-success)
+![Domain](https://img.shields.io/badge/Domain-Computational%20Biology-brightgreen)
+![Focus](https://img.shields.io/badge/Focus-Evidence--Centric%20AI-orange)
+
 ---
 
 ## Overview
 
-Understanding whether a protein promotes or suppresses disease is fundamental for target identification, biomarker discovery, and therapeutic development.
+Understanding whether a protein promotes or suppresses disease is fundamental to target identification, biomarker discovery, and therapeutic development.
 
-This project presents an evidence-centric computational framework that systematically integrates experimentally validated information from biomedical literature to infer protein–disease regulatory roles.
+This project presents an **evidence-centric computational framework** that systematically integrates experimentally validated information from biomedical literature to infer protein–disease regulatory roles.
 
-Unlike predictive or black-box AI models, this framework emphasizes **interpretability**, **traceability**, and **biological evidence**, enabling every regulatory inference to be linked back to supporting scientific literature.
+Unlike predictive or black-box AI models, this framework emphasizes **interpretability**, **traceability**, and **biological evidence**, ensuring that every inferred regulatory relationship can be linked back to supporting scientific literature.
 
-> **Note:** This repository documents the methodology, workflow, and project outcomes presented at **SYMBIOT'26**. The implementation code is intentionally withheld as the work is part of ongoing research intended for future publication.
+This work was presented at **SYMBIOT'26 – 3rd International Conference on Medicine, Biological Sciences & Omics Technologies**.
+
+> **Research Notice**
+>
+> This repository documents the methodology, workflow, and scientific outcomes of the project. The implementation code is intentionally withheld as the work forms part of ongoing academic research intended for future publication.
 
 ---
 
-## Objectives
+# Objectives
+
+The framework aims to:
 
 - Retrieve protein–disease evidence from biomedical literature
 - Extract regulatory statements using domain-specific NLP
 - Classify regulatory direction
 - Filter experimentally validated evidence
-- Aggregate weighted evidence
+- Aggregate weighted evidence across studies
 - Infer consensus regulatory roles
 - Produce interpretable and traceable outputs
 
 ---
 
-## Workflow
+# Pipeline Workflow
 
 ```
-PubMed Literature Retrieval
-            │
-            ▼
-Sentence Extraction (BioBERT)
-            │
-            ▼
+Biomedical Literature Retrieval (PubMed)
+                    │
+                    ▼
+Sentence Extraction using BioBERT
+                    │
+                    ▼
 Regulatory Classification
-Positive | Negative | Neutral
-            │
-            ▼
+Positive • Negative • Neutral
+                    │
+                    ▼
 Experimental Evidence Filtering
-            │
-            ▼
-Weighted Evidence Scoring
-            │
-            ▼
-Consensus Regulatory Role
-            │
-            ▼
-Traceable Results
+                    │
+                    ▼
+Weighted Evidence Aggregation
+                    │
+                    ▼
+Consensus Regulatory Role Inference
+                    │
+                    ▼
+Traceable Results Linked to Literature
 ```
 
-A graphical representation of the complete workflow is available in the **figures** directory.
+A graphical workflow is available in the **figures/** directory.
 
 ---
 
-## Key Features
+# Key Features
 
 - Evidence-centric AI framework
-- Domain-specific NLP
 - BioBERT-assisted sentence extraction
-- Experimental evidence filtering
+- Direction-aware regulatory classification
+- Rule-based experimental evidence filtering
 - Weighted evidence aggregation
-- Direction-aware regulatory inference
-- Literature traceability through PubMed IDs
-- Transparent computational workflow
+- Traceable regulatory inference
+- Literature-backed biological interpretation
+- Transparent and interpretable workflow
 
 ---
 
-## Technologies & Resources
+# Technologies & Resources
 
-### Programming
+## Programming
 
 - Python
 
-### Natural Language Processing
+## Natural Language Processing
 
 - BioBERT
 
-### Literature Sources
+## Literature Sources
 
 - PubMed
 
-### Biological Databases
+## Biological Databases
 
 - NCBI
 - UniProt
@@ -92,82 +103,149 @@ A graphical representation of the complete workflow is available in the **figure
 
 ---
 
-## Case Study
+# Case Study
 
 The framework was demonstrated using **BRCA1** in breast cancer.
 
-Example outputs included:
+The workflow successfully:
 
-- Evidence sentence extraction
-- Regulatory direction classification
-- Weighted evidence aggregation
-- Consensus regulatory role inference
+- Retrieved protein–disease literature
+- Extracted evidence sentences
+- Classified regulatory direction
+- Aggregated weighted experimental evidence
+- Inferred consensus regulatory roles
 
-The inferred regulatory role was consistent with BRCA1's established tumour suppressor function.
+The inferred regulatory role was consistent with the well-established tumour suppressor function of **BRCA1**, demonstrating biological plausibility.
 
 ---
 
-## Preliminary Evaluation
+# Preliminary Evaluation
 
-The initial evaluation demonstrated encouraging performance for regulatory direction classification.
+Initial evaluation demonstrated promising performance for regulatory direction classification.
 
 Highlights include:
 
 - Direction-aware sentence classification
 - Balanced precision and recall
+- Evidence-based regulatory inference
 - Biological consistency with established literature
 
-Detailed figures are available in the repository.
+Performance figures and representative outputs are available in the **figures/** directory.
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```
 protein-disease-ai-pipeline/
 
 ├── documentation/
+│   ├── abstract.md
+│   ├── methodology.md
+│   ├── research_gap.md
+│   └── future_work.md
+│
 ├── datasets/
+│   └── README.md
+│
 ├── figures/
+│   ├── pipeline_workflow.png
+│   ├── brca1_case_study.png
+│   ├── classification_performance.png
+│   ├── biological_validation.png
+│   └── future_directions.png
+│
 ├── presentation/
+│   └── SYMBIOT2026_Presentation.pdf
+│
 ├── references/
+│   └── references.md
+│
 └── README.md
 ```
 
 ---
 
-## Presentation
+# Presentation
 
-This work was presented at:
+**Conference**
 
-**SYMBIOT'26**
+SYMBIOT'26
+
+**Event**
+
 3rd International Conference on Medicine, Biological Sciences & Omics Technologies
 
+**Institution**
+
 Manipal Institute of Technology
+
+**Date**
 
 March 2026
 
 ---
 
-## Future Directions
+# Future Directions
 
 - Full-text biomedical literature mining
 - Context-aware regulatory reasoning
 - Multi-omics integration
 - Pathway-level validation
-- Large-scale regulatory network reconstruction
+- Regulatory network reconstruction
+- Large-scale biological knowledge graph development
 
 ---
 
-## Research Status
+# Contributors
 
-🚧 Ongoing academic research.
+### Krithika V
 
-The computational implementation and source code are intentionally not included because the project forms part of ongoing research intended for future publication.
+- Literature review
+- Workflow conceptualization
+- Computational pipeline design
+- Conference presentation
+- Repository documentation
+
+### Dr. Fayaz S.M.
+
+- Research supervision
+- Scientific guidance
+- Project mentorship
 
 ---
 
-## Author
+# Acknowledgements
+
+This work was carried out under the guidance of **Dr. Fayaz S.M.** at **Manipal Institute of Technology**.
+
+I sincerely acknowledge his mentorship, valuable discussions, and continuous guidance throughout the development of this research.
+
+---
+
+# Citation
+
+If you reference this work, please cite:
+
+> **Krithika V., Fayaz S.M.**
+>
+> *An Evidence-Centric AI Pipeline for Protein–Disease Regulation Identification.*
+>
+> Presented at **SYMBIOT'26 – 3rd International Conference on Medicine, Biological Sciences & Omics Technologies**, Manipal Institute of Technology, 2026.
+
+---
+
+# Research Status
+
+🚧 **Ongoing Academic Research**
+
+The computational implementation and source code are intentionally not included because this work forms part of ongoing research intended for future publication.
+
+This repository is designed to document the scientific methodology, computational workflow, and research outcomes while protecting unpublished intellectual contributions.
+
+---
+
+# Contact
 
 **Krithika V**
 
@@ -175,4 +253,10 @@ M.Sc. Computational Molecular Sciences
 
 Manipal Institute of Technology
 
-Computational Biology • Bioinformatics • Drug Discovery Informatics
+📧 krithikav.mitmpl2025@learner.manipal.edu
+
+🔗 LinkedIn: *(Add your LinkedIn URL here)*
+
+---
+
+⭐ If you found this repository interesting, feel free to star it.
