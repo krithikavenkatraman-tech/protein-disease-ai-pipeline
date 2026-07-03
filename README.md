@@ -81,7 +81,7 @@ Traceable Results Linked to Literature
 ## Pipeline Architecture
 
 <p align="center">
-<img src="documentation/figures/pipeline_workflow.png" width="900">
+<img src="figures/pipeline_workflow.png" width="900">
 </p>
 
 ---
@@ -138,7 +138,7 @@ The inferred regulatory role was consistent with the well-established tumour sup
 ## Representative Case Study
 
 <p align="center">
-<img src="documentation/figures/brca1_case_study.png" width="750">
+<img src="figures/brca1_case_study.png" width="750">
 </p>
 ---
 
@@ -157,17 +157,17 @@ Performance figures and representative outputs are available in the **figures/**
 ## Classification Performance
 
 <p align="center">
-<img src="documentation/figures/classification_performance.png" width="700">
+<img src="figures/classification_performance.png" width="700">
 </p>
 
 ## Biological Validation
 
 <p align="center">
-<img src="documentation/figures/go_dotplot.png" width="700">
+<img src="figures/go_dotplot.png" width="700">
 </p>
 
 <p align="center">
-<img src="documentation/figures/kegg_barplot.png" width="700">
+<img src="figures/kegg_barplot.png" width="700">
 </p>
 ---
 
@@ -235,7 +235,7 @@ March 2026
 ## Future Roadmap
 
 <p align="center">
-<img src="documentation/figures/future_directions.png" width="700">
+<img src="figures/future_directions.png" width="700">
 </p>
 
 ---
