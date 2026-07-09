@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="figures/repository_banner2.png" width="100%">
+</p>
+
 # 🧬 An Evidence-Centric AI Pipeline for Protein–Disease Regulation Identification
 
 > An interpretable computational framework for identifying protein–disease regulatory relationships through evidence-centric literature mining and natural language processing.
